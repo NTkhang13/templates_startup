@@ -1,0 +1,65 @@
+
+.text-heading h3{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600px;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+@media screen and (max-width: 740px){
+    #slider{
+        height: 895px;
+        
+    }
+    
+
+    label.logo{
+        font-size: 35px;
+        float: left;
+        margin-top: -80px;
+        padding: 52 52px;
+    }
+    .member-item {
+        margin-left: -9px;
+        
+        width: 100%;
+    }
+    .content-ourskill{
+        padding: 0px 23px 0px 89px;
+    }
+    .card-item{
+        margin: 120px 30px;
+    }
+}
+
+@media (max-width: 952px) {
+
+    label.logo{
+        font-size: 35px;
+        float: left;
+        margin-top: -80px;
+        padding: 80px 80px;
+    }
+   
+    
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+ @media screen and (max-width: 1024px) {
+    .col-list{
+        padding: 20px;
+    }
+    .card-img{
+        padding: 19px;
+    }
+    .content-ourskill {
+        
+        width: 99%;
+    }
+}
